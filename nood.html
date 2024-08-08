@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodfy - Tareas</title>
+    <link rel="stylesheet" href="assets/nood.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Timmana&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.emojiterra.com/microsoft/fluent-emoji/512px/1f680_color.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Noodfy</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#tasks">Mis Tareas</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tasks" class="tasks-section">
+        <h2>Mis Tareas</h2>
+        <div class="task-container">
+            <input type="text" id="task-input" placeholder="Agregar nueva tarea...">
+            <button id="add-task-btn">Agregar</button>
+        </div>
+        <ul id="task-list" class="task-list">
+            <!-- Las tareas se agregarán aquí -->
+        </ul>
+    </section>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
