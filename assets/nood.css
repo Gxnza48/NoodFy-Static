@@ -22,6 +22,13 @@ nav .logo {
     color: #ffffff;
     cursor: default;
     font-family: "Timmana", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+nav .logo:hover {
+    color: #800080;
 }
 
 nav ul {
@@ -72,6 +79,12 @@ nav ul li a:hover {
     background-color: #222;
     color: #fff;
     font-size: 16px;
+    outline: none;
+}
+
+#task-input::placeholder {
+    font-style: italic;
+    font-size: 0.85rem;
 }
 
 #add-task-btn {
@@ -90,6 +103,7 @@ nav ul li a:hover {
     color: var(--green);
     box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
     text-decoration: none;
+    cursor: pointer;
   }
   
   #add-task-btn:hover {

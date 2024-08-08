@@ -78,6 +78,7 @@ nav ul li a:hover {
 
 .hero-content {
     max-width: 600px;
+    
 }
 
 .hero h1 {
@@ -256,6 +257,12 @@ nav ul.nav-active li a {
     .hero p {
         font-size: 20px;
     }
+
+    .hero {
+        height: 70vh;
+    }
+
+
     .cta-button {
         padding: 10px 20px;
         font-size: 16px;
@@ -360,6 +367,11 @@ nav ul.nav-active li a {
     outline: none;
     border: none;
     transition: ease 0.4s;
+    cursor: pointer;
+}
+
+.ds-btn:hover {
+    background-color: rgba(109, 109, 255, 0.658);
 }
 
 .ds-btn a {
@@ -369,14 +381,13 @@ nav ul.nav-active li a {
     transition:ease 0.3s;
 }
 
-.ds-btn a:hover {
-    color:rgb(82, 235, 255);
-}
 
 
 .container-info {
     padding: 20px;
     border: solid white 1px;
     border-radius: 25px;
+    background-color: #dddddd0c;
+    backdrop-filter: blur(70px);
    
 }
